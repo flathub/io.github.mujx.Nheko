@@ -29,6 +29,7 @@
     "--socket=x11",
     "--talk-name=org.freedesktop.Notifications"
   ],
+  "cleanup": ["/include", "/bin/mdb*", "*.a"],
   "modules": [
     {
       "name": "lmdb",
