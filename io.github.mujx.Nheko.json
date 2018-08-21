@@ -181,9 +181,9 @@
       "name": "nheko",
       "sources": [
         {
-          "sha256": "691d8fc5d926077c47dedbe030708418a8a154479a12cb8daffbc3aaa6cdb6c0",
+          "sha256": "c09a7827ceb0b8e18cab8c853c1d09992de3df56721016528776a29ef3ea9a51",
           "type": "archive",
-          "url": "https://github.com/mujx/nheko/archive/v0.5.3.tar.gz"
+          "url": "https://github.com/mujx/nheko/archive/v0.5.4.tar.gz"
         },
         {
           "dest": ".deps/lmdbxx",
