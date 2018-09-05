@@ -52,39 +52,14 @@
       "config-opts": [
         "-DCMAKE_BUILD_TYPE=Release",
         "-DSPDLOG_BUILD_EXAMPLES=0",
+        "-DSPDLOG_BUILD_BENCH=0",
         "-DSPDLOG_BUILD_TESTING=0"
       ],
       "sources": [
         {
-          "sha256": "90d5365121bcd2c41ce94dfe6a460e89507a2dfef6133fe5fad5bb35ac4ef0a1",
+          "sha256": "3dbcbfd8c07e25f5e0d662b194d3a7772ef214358c49ada23c044c4747ce8b19",
           "type": "archive",
-          "url": "https://github.com/gabime/spdlog/archive/v1.0.0.tar.gz"
-        }
-      ]
-    },
-    {
-      "name": "matrix-structs",
-      "buildsystem": "cmake-ninja",
-      "config-opts": [
-        "-DCMAKE_BUILD_TYPE=Release"
-      ],
-      "sources": [
-        {
-          "sha256": "255a82a9e463261858cd7da18f34fd60d19882ab507d214e47ea47ff78ae68b6",
-          "type": "archive",
-          "url": "https://github.com/mujx/matrix-structs/archive/8de04afea34e95c14d1dde82af390592dfde90dd.tar.gz"
-        },
-        {
-          "dest": "include",
-          "sha256": "fbdfec4b4cf63b3b565d09f87e6c3c183bdd45c5be1864d3fcb338f6f02c1733",
-          "type": "file",
-          "url": "https://github.com/nlohmann/json/releases/download/v3.1.2/json.hpp"
-        },
-        {
-          "dest": "include",
-          "sha256": "d815424af42f2fb26994bc2e58c836a2e8fb7ea635d1b23cc6d6235a7af851ee",
-          "type": "file",
-          "url": "https://github.com/mpark/variant/releases/download/v1.3.0/variant.hpp"
+          "url": "https://github.com/gabime/spdlog/archive/v1.1.0.tar.gz"
         }
       ]
     },
@@ -150,9 +125,15 @@
       "name": "mtxclient",
       "sources": [
         {
-          "sha256": "9bbb4613e6ed7c9886575221e1820c4aeda302ff29703e9040e53a2d0236c8ea",
+          "sha256": "06d35a5be7f7e40993566de3ff1abd715ae42ac7bae51bd0c075b09099066b94",
           "type": "archive",
-          "url": "https://github.com/mujx/mtxclient/archive/10894678e982bc037a0aa4cf650b89a566ccbc52.tar.gz"
+          "url": "https://github.com/mujx/mtxclient/archive/4825410d23cd7e9a483d2d2454fc269c6356220d.tar.gz"
+        },
+        {
+          "dest": "include",
+          "sha256": "ce6b5610a051ec6795fa11c33854abebb086f0fd67c311f5921c3c07f9531b44",
+          "type": "file",
+          "url": "https://github.com/nlohmann/json/releases/download/v3.2.0/json.hpp"
         }
       ]
     },
@@ -181,9 +162,9 @@
       "name": "nheko",
       "sources": [
         {
-          "sha256": "c09a7827ceb0b8e18cab8c853c1d09992de3df56721016528776a29ef3ea9a51",
+          "sha256": "98da29597133b0c5a20e6bec6dade2b0675d0f861dc391e833cc01f39a21276c",
           "type": "archive",
-          "url": "https://github.com/mujx/nheko/archive/v0.5.4.tar.gz"
+          "url": "https://github.com/mujx/nheko/archive/v0.5.5.tar.gz"
         },
         {
           "dest": ".deps/lmdbxx",
