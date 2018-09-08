@@ -27,9 +27,14 @@
     "--socket=pulseaudio",
     "--socket=wayland",
     "--socket=x11",
-    "--talk-name=org.freedesktop.Notifications"
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.kde.StatusNotifierWatcher"
   ],
-  "cleanup": ["/include", "/bin/mdb*", "*.a"],
+  "cleanup": [
+    "/include",
+    "/bin/mdb*",
+    "*.a"
+  ],
   "modules": [
     {
       "name": "lmdb",
