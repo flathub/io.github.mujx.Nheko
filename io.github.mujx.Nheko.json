@@ -52,6 +52,21 @@
       "subdir": "libraries/liblmdb"
     },
     {
+      "name": "cmark",
+      "buildsystem": "cmake-ninja",
+      "config-opts": [
+        "-DCMAKE_BUILD_TYPE=Release",
+	"-DCMARK_TESTS=OFF"
+      ],
+      "sources": [
+        {
+          "sha256": "acc98685d3c1b515ff787ac7c994188dadaf28a2d700c10c1221da4199bae1fc",
+          "type": "archive",
+          "url": "https://github.com/commonmark/cmark/archive/0.28.3.tar.gz"
+        }
+      ]
+    },
+    {
       "name": "spdlog",
       "buildsystem": "cmake-ninja",
       "config-opts": [
@@ -130,9 +145,9 @@
       "name": "mtxclient",
       "sources": [
         {
-          "sha256": "06d35a5be7f7e40993566de3ff1abd715ae42ac7bae51bd0c075b09099066b94",
+          "sha256": "e7638d4a8233c0c763d48111fd13e8ad1dcd5f34e3e641b46eaf1bb920b73482",
           "type": "archive",
-          "url": "https://github.com/mujx/mtxclient/archive/4825410d23cd7e9a483d2d2454fc269c6356220d.tar.gz"
+          "url": "https://github.com/mujx/mtxclient/archive/v0.2.0.tar.gz"
         },
         {
           "dest": "include",
@@ -167,9 +182,9 @@
       "name": "nheko",
       "sources": [
         {
-          "sha256": "98da29597133b0c5a20e6bec6dade2b0675d0f861dc391e833cc01f39a21276c",
+          "sha256": "0d292a28a9afda1c5ba5d1ad89b6dbc6a887b8c92e0925db9f7908c66ff7d49d",
           "type": "archive",
-          "url": "https://github.com/mujx/nheko/archive/v0.5.5.tar.gz"
+          "url": "https://github.com/mujx/nheko/archive/v0.6.0.tar.gz"
         },
         {
           "dest": ".deps/lmdbxx",
