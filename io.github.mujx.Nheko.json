@@ -54,6 +54,7 @@
     {
       "name": "cmark",
       "buildsystem": "cmake-ninja",
+      "builddir": true,
       "config-opts": [
         "-DCMAKE_BUILD_TYPE=Release",
 	"-DCMARK_TESTS=OFF"
